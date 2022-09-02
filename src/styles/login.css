@@ -1,0 +1,24 @@
+.login_container{
+    margin: 16px auto;
+    padding: 1rem;
+    width: 80%;
+}
+
+.login_container > div{
+    width: 100%;
+    max-width: 350px;
+}
+
+.login_container div > p{
+    padding: 7px;
+    margin: 8px;
+    color:var(--color-text);
+}
+
+
+
+@media(min-width: 768px){
+    .login_container div > p{
+        margin-top: 28px;
+    }
+}

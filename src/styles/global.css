@@ -1,0 +1,87 @@
+:root{
+    --color-primary: #580f27;
+    --color-secundary:#ffbe00;
+    --color-third:#25182e;
+    --color-text: #F8F9FA;
+    --color-shadow : #290410;
+    --color-label:#E8E1E4;
+    --color-input:#f8f9fa2e;
+    --color-bg:#373737;
+    --color-bg-modal:#21252990;
+
+    /* Fonts */
+    --font-title: 'Permanent Marker', cursive;
+    --font-text:'Dosis', sans-serif;
+
+    /* Weight Font */
+    --weight-1: 800;
+    --weight-2: 400;
+ 
+
+    /* Size Font */
+    --font-size-title: 40px;
+    --font-size-slogan: 18px;
+    --font-size-text: 20px;
+    --font-size-label: 15px;
+    --font-size-input: 15px;
+    --font-size-btn: 15px;
+
+
+
+}
+
+body{
+    background-color: var(--color-bg);
+    font-family: var(--font-text);
+    
+} 
+
+.container{
+    background-color: var(--color-primary);
+    width: 100vw;
+    height: 100vh;
+}
+
+label{
+    width: 100%;
+    max-width: 400px;
+    margin-top: 29px;
+    position: sticky;
+    right: 85vw;
+    color: var(--color-label);
+}
+
+input{
+    width: 100%;
+    max-width: 350px;
+    height: 26px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: var(--color-input);
+    box-shadow: 1px 6px 4px 0px var(--color-shadow);
+    color: var(--color-slogan);
+}
+
+input::placeholder{
+    color: var(--color-input);
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        max-height: 800px;
+        margin: 80px auto 0px auto;
+    }
+}
