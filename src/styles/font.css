@@ -1,5 +1,5 @@
 .slogan{
-    font-size: var(--font-size-slogan);
+    font-size: var(--f-size-medium);
     color: var(--color-text);
     font-weight: var(--weight-1);
     padding: 1rem;
@@ -8,13 +8,13 @@
 }
 
 .subTitle{
-        font-size: 30px;
+        font-size: var(--f-size-big);
         font-weight: var(--weight-1);
         color: var(--color-secundary);
 }
 
 .text--small{
-    font-size: 13px;
+    font-size: var(--font-size-small);
     font-weight: var(--weight-2);
     color: var(--color-secundary);
 }
@@ -27,15 +27,15 @@
 
 @media(min-width: 768px){
     .slogan{
-        font-size: 30px;
+        font-size: var(--f-size-big);
         line-height: 40px;
     }
 
     .subTitle{
-        font-size: 60px;
+        font-size: var(--f-size-extraBig)
     }
 
     .text--small{
-        font-size: 18px;
+        font-size: var(--f-size-medium);
     }
 }
