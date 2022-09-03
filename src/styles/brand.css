@@ -2,10 +2,10 @@
     background-image: url("../assets/background.jpg");
     background-color: var(--color-bg);
     background-blend-mode: exclusion;
-    background-size: cover;
+    background-size: auto 827px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: -181px -307px;
+    background-position:-178px -464px;
     height: 200px;
 
 }
